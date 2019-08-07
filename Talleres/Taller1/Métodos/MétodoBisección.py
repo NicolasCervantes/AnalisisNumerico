@@ -55,6 +55,7 @@ def biseccion( a, b ):
     pyplot.show()
 
 
+    
 if __name__ == "__main__":
     biseccion( 0, 1 )
     biseccion( 1, 2 )
