@@ -13,7 +13,7 @@ def raizNEsima( n, Num, vi ):
         vi = vi + vir
 
     print("La raiz", n, "-esima de ", Num, "es aproximadamente", vi)
-    print("Se tuvieron:", it, " iteraciones. ")
+    print("Se tuvieron:", iteraciones, " iteraciones. ")
 
 
 if __name__ == "__main__":
