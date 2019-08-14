@@ -38,10 +38,7 @@ A = matrix(c(3.5, 4.2,
              4.5, 1/3), nrow = 2, byrow = TRUE)
 b = matrix(c(1.3, 7/4), nrow = 2, byrow = FALSE)
 
-#deltaA = matrix(c(3.5, 4.2,
- #            0.5, 1/3), nrow = 2, byrow = TRUE)
-#deltab = matrix(c(1.3, 7/4), nrow = 2, byrow = FALSE)
-##
-gauss(A,b) # [1] 7.410714 -5.866071
-#gauss(deltaA,deltab) # [2] 0.39003759 -0.01550752
+
+gauss(A,b) 
+
 rcond(A)
