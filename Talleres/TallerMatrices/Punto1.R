@@ -34,7 +34,7 @@ fSOR<-function(a,n,w){
   auxT2=((1-w)*D+(w*U))
   Tfinal=auxT1*auxT2
 }
-print(fSOR(A,3,3))
+print(fSOR(A,3,1.5))
 
 ----------------------------------------------------------------------
 
@@ -81,5 +81,5 @@ fSOR<-function(a,n,w){
   auxT2=((1-w)*D+(w*U))
   Tfinal=auxT1*auxT2
 }
-print(fSOR(A,6,1))
+print(fSOR(A,6,1.5))
 
