@@ -1,3 +1,6 @@
+library(pracma)
+library(matrix)
+
 #Punto 1 Adicional Clase  
 n = 6
 rrr =sample(0:20, 36, replace = TRUE)
