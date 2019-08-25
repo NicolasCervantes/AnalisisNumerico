@@ -16,7 +16,7 @@ ecuacion = function(x1, x2, error){
     x2 = x
     x = x1-((Fx(x1))*(x1-x2)) / (Fx(x1) - Fx(x2))
     err = abs((x-x2)/x)*100
-    cat("Valor X: ", x, "\t\tValor del Error: ", err, "\t\tIteraccion: ", contador, "\n")
+    cat("Valor X: ", x, "\t\tValor del Error: ", err, "\t\tIteracion: ", contador, "\n")
   }
 }
 
